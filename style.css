@@ -1,27 +1,33 @@
-.main{
-    width: 500px;
-    height: 1000px;
-    border: solid 1px black;
-/*     background-color: blue;
+.main {
+/*     display: flex;
+ */  width: 500px;
+  height: 1000px;
+  border: solid 1px black;
+  /*     background-color: blue;
  */
 }
 
-.text1{
-    width: 500px;
-    height: 50px;
-
+.text1 {
+  flex-direction: column;
+  width: 500px;
+  height: 50px;
 }
 
-.main .border1{
-    display: flex;
-    width: 480px;
-    height: 10px;
-    background-color: black;
-    margin-left: 8px;
+ .border1 {
 
+  display: flex;
+  width: 480px;
+  height: 10px;
+  background-color: black;
+justify-content: center;
 }
 
-.text2{
-    text-align: right;
-    margin-top: 5px;
+.text2 {
+  text-align: right;
+  margin-top: 5px;
+}
+
+.text3 {
+  justify-content: space-between;
+  display: flex;
 }
