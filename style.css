@@ -50,6 +50,7 @@
     justify-content: flex-end;
     display: flex;
     width: 95%;
+    border-top: solid 0.1em cornflowerblue;
 }
 
 .spanleft1 {
