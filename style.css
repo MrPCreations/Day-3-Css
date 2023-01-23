@@ -1,49 +1,65 @@
 .main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 500px;
-  height: 1000px;
-  border: solid 1px black;
-  /*     background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 1000px;
+    border: solid 1px black;
+    /*     background-color: blue;
  */
 }
 
 .text1 {
-  width: 95%;
+    width: 95%;
 }
 
- .border1 {
-
-  width: 95%;
-  height: 10px;
-  background-color: black;
+.border1 {
+    width: 95%;
+    height: 10px;
+    background-color: black;
 }
-.border2{
+
+.border2 {
     width: 95%;
     height: 5px;
     background-color: black;
 }
 
 .text2 {
-  text-align: right;
-  width: 95%;
-
+    text-align: right;
+    width: 95%;
 }
 
 .text3 {
-  justify-content: space-evenly;
-  display: flex;
-  width: 95%;
-
+    justify-content: space-evenly;
+    display: flex;
+    width: 95%;
 }
 
-.spanleft{
+.spanleft {
     text-align: left;
     width: 60%;
 }
 
-.spanright{
+.spanright {
+    text-align: right;
+    width: 20%;
+}
+
+.text4 {
+    justify-content: flex-end;
+    background-color: chartreuse;
+    display: flex;
+    width: 95%;
+}
+
+.spanleft1 {
+    text-align: left;
+    width: 60%;
+    margin-left: 1em;
+}
+
+.spanright1 {
     text-align: right;
     width: 20%;
 }
